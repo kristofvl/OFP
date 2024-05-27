@@ -1,3 +1,8 @@
+/**
+ Der Typ eines Ausdrucks kann (in Grenzen) angepaßt werden: 
+ Explizite Typkonversion versus implizite (automatische) Typkonversion
+ */
+
 class Typkonversionen {
   public static void main(String[] s) {
     double x, y = 1.1;
