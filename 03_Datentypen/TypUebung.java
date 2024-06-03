@@ -12,7 +12,7 @@ class TypUebung {
     
     /* Variablen zum Speichern dieses Symbols: ☺ */
     
-    /* Konstante zum Speichern des Flaggensymbols eines Landes, z.B. 🇧🇪 : */
+    /* Konstanten zum Speichern des Flaggensymbols eines Landes, z.B. 🇧🇪 : */
 
     /* Konstante zum Speichern des Namens eines Landes, z.B. Belgien */
 
