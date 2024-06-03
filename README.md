@@ -7,6 +7,6 @@ Woche 1: [Folien](OFP_Java01.pdf), [Video](https://youtu.be/AfRTazyc7Vs), Quellc
   + [03 Typen und Variablen](/03_Datentypen/)
   + [04 Anweisungen (if, else, switch, while, for)](/04_Anweisungen/)
 
-Woche 2: [Folien](OFP_Java02.pdf), [Video1](https://youtu.be/KADOOH8C_Js), [Video2](https://youtu.be/KADOOH8C_Js), Quellcode:
+Woche 2: [Folien](OFP_Java02.pdf), [Video1](https://youtu.be/KADOOH8C_Js), [Video2](https://youtu.be/s4aidRO7KDE), Quellcode:
   + [05 Arrays und Strings](/05_ArraysStrings/)
     
