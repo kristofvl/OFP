@@ -11,5 +11,5 @@ Woche 2: [Folien](OFP_Java02.pdf), [Video1](https://youtu.be/KADOOH8C_Js), [Vide
   + [05 Arrays und Strings](/05_ArraysStrings/)
     
 Woche 3: [Folien](OFP_Java03.pdf), [Video1](https://youtu.be/), [Video2](https://youtu.be/), Quellcode:
-  + [06_ObjekteMethoden](/06_ObjekteMethoden/)
+  + [06 Objekte und Methoden](/06_ObjekteMethoden/)
     
