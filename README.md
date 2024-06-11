@@ -10,6 +10,6 @@ Woche 1: [Folien](OFP_Java01.pdf), [Video](https://youtu.be/AfRTazyc7Vs), Quellc
 Woche 2: [Folien](OFP_Java02.pdf), [Video1](https://youtu.be/KADOOH8C_Js), [Video2](https://youtu.be/s4aidRO7KDE), Quellcode:
   + [05 Arrays und Strings](/05_ArraysStrings/)
     
-Woche 3: [Folien](OFP_Java03.pdf), [Video1](https://youtu.be/), [Video2](https://youtu.be/), Quellcode:
+Woche 3: [Folien](OFP_Java03.pdf), [Video1](https://youtu.be/MRuAipnrnL4), [Video2](https://youtu.be/dcSTAK-ufkU), Quellcode:
   + [06 Objekte und Methoden](/06_ObjekteMethoden/)
     
