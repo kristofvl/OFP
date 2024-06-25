@@ -14,8 +14,8 @@ Woche 3: [Folien](OFP_Java03.pdf), [Video1](https://youtu.be/MRuAipnrnL4), [Vide
   + [06 Objekte und Methoden](/06_ObjekteMethoden/)
    
 Woche 4: [Folien](OFP_Java04.pdf), [Video1](https://youtu.be/towG3DmSaCk), [Video2](https://youtu.be/FS9E_PGDUD8), Quellcode:
-  + [07a Vererbung und Polymorphie](/07_Vererbung/)
+  + [07a Vererbung und Polymorphie](/07_VererbungPolymorphie/)
     
 Woche 5: [Folien](OFP_Java05.pdf), [Video1](https://youtu.be/YhYUZP4fPKs), [Video2](https://youtu.be/3yNdy1Qxaxs), Quellcode:
-  + [07b Vererbung und Polymorphie](/07_Vererbung/)
+  + [07b Vererbung und Polymorphie](/07_VererbungPolymorphie/)
     
