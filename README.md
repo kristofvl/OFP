@@ -21,4 +21,5 @@ Woche 5: [Folien](OFP_Java05.pdf), [Video1](https://youtu.be/YhYUZP4fPKs), [Vide
     
 Woche 6: [Folien](OFP_Java06.pdf), [Video1](https://youtu.be/), [Video2](https://youtu.be/), Quellcode:
   + [08 Ausnahmebehandlung](/08_Ausnahmebehandlung/)
+  + [09 Serialisierung](/09_Serialisierung/)
     
