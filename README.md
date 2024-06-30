@@ -19,3 +19,6 @@ Woche 4: [Folien](OFP_Java04.pdf), [Video1](https://youtu.be/towG3DmSaCk), [Vide
 Woche 5: [Folien](OFP_Java05.pdf), [Video1](https://youtu.be/YhYUZP4fPKs), [Video2](https://youtu.be/3yNdy1Qxaxs), Quellcode:
   + [07b Vererbung und Polymorphie](/07_VererbungPolymorphie/)
     
+Woche 6: [Folien](OFP_Java06.pdf), [Video1](https://youtu.be/), [Video2](https://youtu.be/), Quellcode:
+  + [08 Ausnahmebehandlung](/08_Ausnahmebehandlung/)
+    
