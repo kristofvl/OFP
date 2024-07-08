@@ -1,37 +1,49 @@
-class Bankkonto {
-  public static void main(String args[]) {
-    Konto konto = new Konto(10);  // Konto mit 10 EUR
-    for (int i=0; i<3; i++) {  // dreimal 10 EUR abheben
-      Banking t = new Banking(konto, 10);
-      t.start();
-    }
+import java.util.Vector;
+
+public class ProdConListing {
+  public static void main(String[] args) {
+    Vector v = new Vector();
+    Producer p = new Producer(v);
+    Consumer c = new Consumer(v);
+    p.start();
+    c.start();
   }
 }
 
-class Banking extends Thread {
-  Konto konto;   // Eingabedaten fuer
-  double betrag; // den Thread
-  Banking(Konto k, double b) { konto = k; betrag = b; }
+class Producer extends Thread {
+  private Vector v;
+  public Producer(Vector v) { this.v = v; }
   public void run() {
-    konto.abheben(betrag);
-    System.out.println("Kontostand: " + konto.getSaldo());
+    String s;
+    while (true) {
+      synchronized (v) {
+        s = "Wert "+Math.random();
+        v.addElement(s);
+        System.out.println("Produzent erzeugte "+s);
+        v.notify();
+      }
+      try {
+        Thread.sleep((int)(100*Math.random()));
+      } catch (InterruptedException e) {  }
+    }
   }
 }
 
-class Konto {
-  public Konto(double saldo) { this.saldo = saldo; }
-  private double saldo = 0.0;
-  public double getSaldo() { return saldo; }
-  public boolean abheben(double betrag) {
-    double neuerSaldo = saldo - betrag;
-    boolean ok = true;
-    if (neuerSaldo < 0) {
-      // Bei Ueberziehung: Anfrage an Schufa (über Netzwerk)
-      ok = frageSchufa(neuerSaldo); // kann dauern ...
+class Consumer extends Thread {
+  private Vector v;
+  public Consumer(Vector v) { this.v = v; }
+  public void run() {
+    while (true) {
+      synchronized (v) {
+        if (v.size() < 1)
+          try { v.wait(); } catch (InterruptedException e) {  }
+        System.out.print("Konsument fand "+(String)v.elementAt(0));
+        v.removeElementAt(0);
+        System.out.println(" (verbleiben: "+v.size()+")");
+      }
+      try {
+         Thread.sleep((int)(100*Math.random()));  // Warte 1 Sekunde
+      } catch (InterruptedException e) {  }
     }
-    if (ok)
-      saldo = neuerSaldo; // Buchung durchfuehren
-    return ok;
   }
-  private boolean frageSchufa(double saldo) { return true; }
 }
