@@ -8,13 +8,9 @@ public class SyncListing extends Thread {
   }
   public void run() {
     while (true) {
-      //synchronized (getClass()) {
-      //  System.out.print(cnt+++" ");
-      //}
-      addOne();
+      synchronized (getClass()) {
+        System.out.print(cnt+++" ");
+      }
     }
-  }
-  public synchronized void addOne() {
-    System.out.print(cnt+++" ");
   }
 }
