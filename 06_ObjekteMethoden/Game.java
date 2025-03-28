@@ -7,10 +7,11 @@ import java.awt.event.*;  // keylistener events
 
 class Game extends JPanel implements KeyListener {
 
-  int xPos, yPos;  // position of rectangle
+  int xPos;
+  int yPos;  // position of rectangle
 
   public Game() {
-   xPos = yPos = 200;
+   xPos = yPos = 400;
   }
 
   public void keyPressed(KeyEvent e) {
@@ -29,7 +30,7 @@ class Game extends JPanel implements KeyListener {
   public void keyReleased(KeyEvent e) {}
   public void keyTyped(KeyEvent e) {}
 
-  public void paintComponent( Graphics g) {
+  public void paintComponent( Graphics g ) {
     super.paintComponent(g);
     g.setColor( Color.RED );    // draw a red rectangle
     g.fillRect(xPos, yPos, 20, 20);  //  position x, y, width, height
@@ -40,7 +41,7 @@ class Game extends JPanel implements KeyListener {
     game.setFocusable(true);
     game.addKeyListener(game);
     JFrame frame = new JFrame("Game on!");
-    frame.setSize(800, 400);
+    frame.setSize(1200, 800);
     frame.getContentPane().add(game);
     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     frame.setVisible(true);

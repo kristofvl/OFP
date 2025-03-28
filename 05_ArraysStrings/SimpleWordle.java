@@ -11,8 +11,17 @@ class SimpleWordle {
   }
   public static void main( String[] str ) {
     String loesung = "weary"; // Loesunswort
-    String hint = "-----";    // Hinweis mit gefundenen Buchstaben 
+    String hint = "-----";    // Hinweis mit gefundenen Buchstaben
     // Implementiere ein Schleife, die dialog ausführt & aufhört
     // wenn das Wort geraten wurde:
+    while (!loesung.equals(hint)) {
+      String s = dialog(hint);
+      for (int i = 0; i < loesung.length(); i++) {
+        if ( loesung.charAt(i) == s.charAt(i) ) {
+          hint = hint.substring(0,i) + loesung.charAt(i)
+                 + hint.substring(i+1,loesung.length()) ;
+        }
+      }
+    }
   }
 }
