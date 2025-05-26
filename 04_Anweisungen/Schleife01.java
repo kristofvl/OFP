@@ -1,17 +1,14 @@
 /**
-  Implementiere ein Programm, dass von 1 bis 26 zählt, aber statt der Zahl
-  "hoppla" ausgibt, wenn diese Zahl ein Vielfaches von 7 ist.
-  System.out.println() ..
+    Implementiere ein Java-Programm, das mit 999.0 beginnt und dann in einer
+    Schleife die Hälfte der vorherigen Zahl ausgibt, bis die Zahl kleiner
+    als 20.0 ist.
+
+    Benutze System.out.println().
   */
 
 class Schleife01 {
   public static void main( String[] str ) {
-    for (int i = 1; i <= 26; i++) {
-      if (i % 7 == 0) {  // teilbar durch 7 ?
-        System.out.println("hoppla");
-      } else {
-        System.out.println(i);
-      }
-    }
+
+
   }
 }

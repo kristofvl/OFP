@@ -1,5 +1,5 @@
 /**
- Der Typ eines Ausdrucks kann (in Grenzen) angepaßt werden: 
+ Der Typ eines Ausdrucks kann (in Grenzen) angepaßt werden:
  Explizite Typkonversion versus implizite (automatische) Typkonversion
  */
 

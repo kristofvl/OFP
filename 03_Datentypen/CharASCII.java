@@ -8,6 +8,6 @@ class CharASCII {
     char symbol;  // Variable für Zeichen
     symbol = '@';
     System.out.print( "Die ASCII-Kodierung für [" + symbol + "] ist " );
-    System.out.println( (int) symbol );  // Methode zum Drucken auf die Konsole 
+    System.out.println( (int) symbol );  // Methode zum Drucken auf die Konsole
   }
 }
