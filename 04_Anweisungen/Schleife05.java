@@ -9,9 +9,7 @@
 
 class Schleife05 {
   public static void main( String[] str ) {
-    do {
-      System.out.print( 'X' );
-    } while (Math.random()>0.09);
-    System.out.println();
+
+    
   }
 }
