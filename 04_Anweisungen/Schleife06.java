@@ -16,11 +16,5 @@ class Schleife06 {
   public static void main( String[] str ) {
     int size = Integer.parseInt(str[0]);  // size = 1. Argument
 
-    for (int x = 1; x <= size; x++) {
-       for (int y = 0; y < x; y++) {
-         System.out.print('X');
-       }
-       System.out.println();
-    }
   }
 }
