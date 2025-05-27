@@ -17,7 +17,7 @@ class BDayParadox {
   public static void main(String[] args) {
     int n = 23;
     BDayParadox b = new BDayParadox();
-    System.out.println( "Out of " + n + 
+    System.out.println( "Out of " + n +
                         " people, the chance that 2 have the same birthday is: " + b.prob(n) );
   }
 }

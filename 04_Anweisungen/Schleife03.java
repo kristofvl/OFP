@@ -7,7 +7,5 @@
 class Schleife03 {
   public static void main( String[] str ) {
 
-
-
   }
 }

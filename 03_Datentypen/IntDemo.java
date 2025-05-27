@@ -5,7 +5,7 @@
 
 class IntDemo {
   public static void main( String[] str ) {
-    int y;  // Variable für Integer
+    int y = 0;  // Variable für Integer
     y = 1;  // Variable y wird auf den Wert 1 gesetzt
     System.out.print( "Zahl: "); // Ausgabe "Zahl:"
     System.out.println( y ); // Ausgabe ys Wert + Sprung zur nächsten Zeile

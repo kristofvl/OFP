@@ -9,6 +9,5 @@
 class Schleife01 {
   public static void main( String[] str ) {
 
-
   }
 }
