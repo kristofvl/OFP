@@ -7,7 +7,7 @@
      Zeile (mit System.out.println() )
   */
 
-class Arrays00 {
+class Arrays01 {
   public static void main( String[] str ) {
 
 

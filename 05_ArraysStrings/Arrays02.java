@@ -6,7 +6,7 @@
   */
 import java.util.Random;   // random number generator
 
-class Arrays01 {
+class Arrays02 {
   public static void main( String[] str ) {
     Random rand = new Random();
     // Tipp: rand.nextInt( 10 ); liefert eine beliebige Zahl zwischen 0 und 10
