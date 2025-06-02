@@ -1,5 +1,5 @@
-/**  SimpleWordle: Implementieren Sie ein einfaches Wordle-Spiel mit einer 
-     unendlichen Anzahl von Versuchen. Verwenden Sie diese Vorlage: 
+/**  SimpleWordle: Implementiere ein einfaches Wordle-Spiel mit einer
+     unendlichen Anzahl von Versuchen. Verwende diese Vorlage:
   */
 import java.util.Random;   // random number generator
 import java.util.Scanner;  // scan strings in der Konsole
@@ -14,14 +14,7 @@ class SimpleWordle {
     String hint = "-----";    // Hinweis mit gefundenen Buchstaben
     // Implementiere ein Schleife, die dialog ausführt & aufhört
     // wenn das Wort geraten wurde:
-    while (!loesung.equals(hint)) {
-      String s = dialog(hint);
-      for (int i = 0; i < loesung.length(); i++) {
-        if ( loesung.charAt(i) == s.charAt(i) ) {
-          hint = hint.substring(0,i) + loesung.charAt(i)
-                 + hint.substring(i+1,loesung.length()) ;
-        }
-      }
-    }
+
+
   }
 }

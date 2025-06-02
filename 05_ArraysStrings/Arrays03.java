@@ -1,6 +1,6 @@
 /**  Erstelle ein Programm, das für eine gegebene Größe n eine Matrix aus n x n
      ganzen Zahlen erzeugt. Die Matrix wird mit den Zahlen 1, 2, ..., n für die
-     erste Zeile und Spalte gefüllt. Füllen Sie dann alle anderen Zellen der Matrix
+     erste Zeile und Spalte gefüllt. Fülle dann alle anderen Zellen der Matrix
      mit der Summe aus dem Element oberhalb und dem Element links von der Zelle.
      Für n = 4, z.B.:
      1,  2,  3,  4

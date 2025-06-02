@@ -1,4 +1,4 @@
-/**  Histogram: Zeichnen Sie ein Histogramm:
+/**  Histogram: Zeichne ein Histogramm:
   */
 import java.util.Random;   // random number generator
 
