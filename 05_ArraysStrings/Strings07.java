@@ -1,7 +1,7 @@
 /**
    Entferne alle HTML-Tags aus einem String.
    Zum Beispiel, "<h1>Hallo</h1><p>Dies ist ein <b>Test</b></p>"
-   soll als Ausgabe haben: "HalloDas ist ein Test"
+   soll als Ausgabe haben: "HalloDies ist ein Test"
  */
 class Strings07 {
     public static void main(String[] s) {
