@@ -14,7 +14,7 @@ class Strings05 {
 
         // Code kommt hier
 
-        System.out.print( (istSicher)? "S" : "Un" );
+        System.out.print( (istSicher)? "S" : "Uns" );
         System.out.println("icheres Passwort");
     }
 }
