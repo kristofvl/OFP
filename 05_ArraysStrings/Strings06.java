@@ -4,12 +4,14 @@
    aufeinanderfolgende gleiche Zeichen zählen.
  */
 class Strings06 {
-    public static void main(String[] s) {
-        String input = "aaabbbcc";
-        String komprimiert = "";
 
-        // Code kommt hier
+  public static void main(String[] s) {
+    String input = "aaabbbcc";
+    String komprimiert = "";
 
-        System.out.println("Komprimiert: " + komprimiert);
-    }
+    // Code kommt hier
+
+
+    System.out.println("Komprimiert: " + komprimiert);
+  }
 }
