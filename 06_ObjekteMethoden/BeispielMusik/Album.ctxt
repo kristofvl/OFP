@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Album
+comment0.text=\n\ Write\ a\ description\ of\ class\ Album\ here.\n\n\ @author\ (your\ name)\n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=size
+comment1.target=Album(int)
+comment2.params=i\ firstName\ firstArtist
+comment2.target=void\ setSong(int,\ java.lang.String,\ java.lang.String)
+numComments=3

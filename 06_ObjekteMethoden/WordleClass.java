@@ -7,13 +7,13 @@ class WordleClass {
   private String loesung = "weary"; // Loesunswort
   private String hint = "-----";    // Hinweis mit gefundenen Buchstaben
     // Implementiere ein Schleife, die dialog ausführt & aufhört
-  
+
   private String dialog() {
     System.out.print( hint + ", what is your guess? ");
     Scanner scan = new Scanner(System.in);
     return scan.next();
   }
-  
+
   public void run() {
     while (!loesung.equals(hint)) {
       String s = dialog();

@@ -4,13 +4,11 @@ class Klasse {
   Klasse() {
     // Erzeuge o1 und o2 als Attribute in Klasse, und
     // verlinke o2 als Attribut in o1, so dass o2.a1 == o1.k2.a1:
-    o2 = new Klasse2(2.3);
-    o1 = new Klasse1(o2);
 
   }
   public static void main(String[] s) {  // main ist eine Klassenmethode
     // Erzeuge ein Objekt von Klasse:
-    Klasse objekt = new Klasse;
+
   }
 }
 class Klasse2 {
@@ -26,6 +24,5 @@ class Klasse1 {
   Klasse1(Klasse2 k2) {
     this.k2 = k2;
     System.out.println("K1");
-    this.k2.a1 = 5.5;
   }
 }

@@ -1,0 +1,31 @@
+Class documentation
+<---- javadoc command: ---->
+javadoc
+-author
+-version
+-nodeprecated
+-package
+-Xdoclint:none
+-noindex
+-notree
+-nohelp
+-nonavbar
+-source
+21
+-classpath
+/Applications/BlueJ.app/Contents/Java/bluejcore.jar:/Applications/BlueJ.app/Contents/Java/javafx-graphics-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-base-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-web-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-controls-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-swing-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-fxml-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/javafx-media-23.0.2-mac-aarch64.jar:/Applications/BlueJ.app/Contents/Java/junit-4.12.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-params-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-api-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-suite-api-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-vintage-engine-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-jupiter-5.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-engine-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-launcher-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/junit-platform-commons-1.5.2.jar:/Applications/BlueJ.app/Contents/Java/hamcrest-core-1.3.jar:/Applications/BlueJ.app/Contents/Java/opentest4j-1.2.0.jar:/Applications/BlueJ.app/Contents/Java/lang-stride.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.base.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.controls.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.fxml.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.graphics.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.media.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.properties.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.swing.jar:/Applications/BlueJ.app/Contents/Java/javafx/javafx.web.jar:/Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic
+-d
+/Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/doc
+-encoding
+UTF-8
+-charset
+UTF-8
+/Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/BeispielMusik.java
+<---- end of javadoc command ---->
+Loading source file /Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/BeispielMusik.java...
+Constructing Javadoc information...
+Standard Doclet version 21.0.6+7-LTS
+Building tree for all the packages and classes...
+Generating /Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/doc/BeispielMusik.html...
+Generating /Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/doc/package-summary.html...
+Generating /Users/kvl/sciebo/code/OFP/06_ObjekteMethoden/BeispielMusic/doc/index.html...
