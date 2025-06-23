@@ -5,11 +5,9 @@
     Methode getFlaeche() für jede der drei Klassen.
     */
 
-class App {
+class Interface {
   public static void main(String[] s) {
-    Figur f;
-    f = new Rechteck(6.0, 7.0);
-    System.out.println("Flaeche: " + f.getFlaeche());
+
   }
 }
 

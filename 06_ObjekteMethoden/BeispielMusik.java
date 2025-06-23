@@ -6,7 +6,7 @@ class Album {
 
 }
 
-class MusicLib {
+class MusicLib {  // Music library
 
 }
 
