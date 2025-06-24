@@ -6,5 +6,9 @@
  */
 public class Song {
   private String title, artist;
-  // Füge einen geeigneten Konstruktor zu dieser Klasse.
+  public Song(String title, String artist) {
+    this.title = title;
+    this.artist = artist;
+    System.out.println("Lied: "+title+" by "+artist);
+  }
 }
