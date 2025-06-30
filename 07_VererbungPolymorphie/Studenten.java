@@ -1,4 +1,4 @@
-\/** Beispiel Klasse Student als Unterklasse von Object (Alle Klassen erben
+/** Beispiel Klasse Student als Unterklasse von Object (Alle Klassen erben
     von Object, auch ohne extends). Methode toString() ermöglicht
     menschenlesbare Darstellung. Methode equals() vergleicht Inhalte,
     nicht Referenzen.
@@ -17,7 +17,7 @@ class Student {
   }
   // equals() überschreiben, um Vergleich nach Inhalt zu ermöglichen
   public boolean equals(Object obj) {
-    // Schreibe hier anweisungen, so dass s1.equals(s2) unten in main() true ausgibt
+    // Schreibe hier Anweisungen, so dass s1.equals(s2) unten in main() true ausgibt
     return super.equals(obj);  // wieso funktioniert dies nicht?
   }
 }
