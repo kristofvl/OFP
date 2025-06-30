@@ -1,9 +1,7 @@
 import java.util.Random;
 
 class Verteilung {
-  protected int yLen = 24;
-  protected int xLen = 80;
-  protected int runs = 120;
+  protected int yLen = 24, xLen = 80, runs = 120;
   protected boolean[][] display = null;
   protected Random r;
 
@@ -29,7 +27,7 @@ class Verteilung {
     if ( (args.length > 0) && (args[0].equals("u")) ) {
       v = new Uniform(24, 100, 240);
     } else {
-      v = new Gauss(24, 100, 240); 
+      v = new Gauss(24, 100, 240);
     }
     v.print();
   }

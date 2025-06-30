@@ -52,7 +52,7 @@ class WordleClass {
             hintChar[i] = in.charAt(i);                // und zeige sie in hintChar
           } else {                                     // wenn richtig
             boolean found = false;
-            for (int j = 0; j < loesung.length(); j++ ) {  // suche Buchstaben an  
+            for (int j = 0; j < loesung.length(); j++ ) {  // suche Buchstaben an
                if ( in.charAt(i) == loesung.charAt(j) ) {  // andere Stellen in loesung
                  found = true;
                }
