@@ -6,7 +6,7 @@ import java.net.*; // benutze HttpURLConnection, URI, URL;
 
 class WebseiteAbruf {
   public static void main(String[] s) throws Exception {
-    URI uri = URI.create("https://httpbin.org/html");
+    URI uri = URI.create("https://example.com");
     URL url = uri.toURL();
     HttpURLConnection verbindung = (HttpURLConnection) url.openConnection();
 

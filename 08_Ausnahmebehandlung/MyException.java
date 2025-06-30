@@ -15,12 +15,13 @@ public class MyException extends Exception {
   }
 
   public static void main(String[] s) {
-    MyException.main(st);
     try {
+      // ..
       throw new MyException("Testfehler.", 9);  // Werfe Fehler
     }
     catch (MyException e) {
-      System.out.println(e.toString());
+      System.out.println(e);
     }
+    //catch (...) {...}
   }
 }
