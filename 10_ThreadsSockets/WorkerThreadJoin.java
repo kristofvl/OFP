@@ -1,22 +1,35 @@
+/**
+ * Aufgabe: Synchronisation von Threads mit join()
+ *
+ * In diesem Programm wird ein Array von Threads erzeugt, die gleichzeitig eine
+ * rechenintensive Aufgabe ausführen. Anschließend wird die Methode join() verwendet,
+ * um auf das Beenden aller Threads zu warten.
+ */
+
 class WorkerThreadJoin {
-  public static void main(String[] s) {
-    // Erstellen Sie ein Array von Threads, die gleichzeitig ausgeführt werden:
-    WorkThread t1 = new WorkThread();  // Erzeuge ein neues Thread−Objekt
-    t1.start();  // Führe die run−Methode des Objekts in einem neuen Thread aus
-    WorkThread t2 = new WorkThread();  // Erzeuge ein neues Thread−Objekt
-    t2.start();  // Führe die run−Methode des Objekts in einem neuen Thread aus
-    t1.join();
-    t2.join();
-    
+  public static void main(String[] args) {
+    // TODO: Ein Array mit mehreren Threads (z. B. 5 Stück) deklarieren
+    // und mit Instanzen der Klasse WorkThread füllen.
+
+    // TODO: Alle Threads mit start() starten, sodass sie gleichzeitig laufen.
+
+    System.out.println("Alle Threads wurden gestartet.");
+    // TODO: Für jeden Thread join() aufrufen, um auf dessen Beendigung zu warten.
+
+    System.out.println("Alle Threads sind abgeschlossen.");
   }
 }
+
 class WorkThread extends Thread {
-  public double res = 0;
-  public void run() {  // wird nebenläufig zum Aufrufer ausgeführt
-    System.out.println("Working ...\n");
+  // Implementiere eine Thread-ID id, die in dem Konstruktor gesetzt wird
+
+  // run() wird nebenläufig zur main-Methode ausgeführt
+  public void run() {
+    System.out.println("Thread " + id + " startet Arbeit...");
     double v = 1.000000001;
-    for (double i=0; i<5000000000.0; i++) { v += v; }  // komplexe Berechnung
-    res = v;
-    System.out.println("Done!\n");
+    for (double i = 0; i < 500000000.0; i++) {  // ggf. kleinere Zahl zum Testen
+      v *= v;
+    }
+    System.out.println("Thread " + id + " ist fertig.");
   }
 }

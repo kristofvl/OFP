@@ -1,3 +1,19 @@
+/**
+ * Beispielprogramm: Gleichzeitiger Zugriff auf ein gemeinsames Bankkonto.
+ *
+ * Dieses Programm simuliert ein einfaches Bankkonto, von dem mehrere Threads
+ * gleichzeitig Geld abheben. Jeder `Banking`-Thread versucht, einen festen
+ * Betrag vom gemeinsamen `Konto` abzuheben. Dabei wird keine Synchronisation
+ * verwendet, was zu unerwartetem Verhalten führen kann (Race Condition).
+ *
+ * Zweck des Programms ist es, Probleme beim parallelen Zugriff auf gemeinsame
+ * Ressourcen zu demonstrieren und auf die Notwendigkeit von Synchronisation
+ * hinzuweisen.
+ *
+ * Hinweis: Durch die simulierte Schufa-Anfrage (mittels `Thread.sleep`) kann
+ * es zu Verzögerungen kommen, die den Effekt von Race Conditions verstärken.
+ */
+
 class Bankkonto {
   public static void main(String args[]) {
     Konto konto = new Konto(10);  // Konto mit 10 EUR

@@ -1,3 +1,16 @@
+/**
+ * Beispielprogramm: Einfacher Echo-Server mit Thread-basierter Verarbeitung.
+ *
+ * Dieses Programm implementiert einen einfachen TCP-Server, der auf Port 7
+ * auf eingehende Verbindungen wartet. Für jede eingehende Verbindung wird
+ * ein eigener Thread (`EchoClientThread`) gestartet, der die Kommunikation
+ * mit dem jeweiligen Client übernimmt.
+ *
+ * Der Server liest byteweise von der Eingabe (vom Client) und sendet die Daten
+ * direkt zurück (Echo-Funktion). Gleichzeitig wird die empfangene Nachricht
+ * auch auf der Server-Konsole ausgegeben.
+ */
+
 import java.net.Socket;
 import java.net.ServerSocket;
 import java.io.*;

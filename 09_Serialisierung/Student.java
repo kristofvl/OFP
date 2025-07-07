@@ -1,3 +1,20 @@
+/**
+ * Die Klasse 'Student' repräsentiert einen Studierenden mit Namen, Vornamen,
+ * Matrikelnummer und Note. Sie bietet Methoden zum Einlesen von Studentendaten
+ * aus einem Eingabestrom (z.B. Datei oder Konsole) sowie zum Schreiben dieser
+ * Daten in einen Ausgabestrom.
+ *
+ * Funktionen im Überblick:
+ * - Konstruktor für die manuelle Initialisierung eines Studentenobjekts
+ * - Konstruktor zum Einlesen der Daten aus einer Textzeile mit CSV-Format:
+ *   "Name,Vorname,MatrNr,Note"
+ * - Fehlerbehandlung bei unvollständigen oder fehlerhaften Eingaben
+ * - Ausgabe der Studentendaten im CSV-Format über PrintWriter
+ *
+ * In main wird ein Student erzeugt, die Daten werden auf die Konsole und in eine
+ * Datei (`out.txt`) geschrieben.
+ */
+
 import java.io.*;
 
 class Student {

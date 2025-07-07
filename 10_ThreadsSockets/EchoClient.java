@@ -1,10 +1,28 @@
-import java.io.*;
+/**
+ * Beispielprogramm: EchoClient mit paralleler Ausgabe.
+ *
+ * Dieses Programm verbindet sich mit einem ECHO-Server auf Port 7
+ * und ermöglicht die bidirektionale Kommunikation über die Konsole.
+ * Die Benutzereingaben werden an den Server gesendet, und die Antwort
+ * des Servers wird in einem separaten Ausgabethread (`OutputThread`)
+ * parallel angezeigt.
+ *
+ * Der Client liest Benutzereingaben zeilenweise ein, sendet sie an
+ * den Server und gibt die empfangenen Antworten direkt aus.
+ * Die Kommunikation endet, wenn der Benutzer "QUIT" eingibt.
+ *
+ * Der Ausgabethread liest kontinuierlich vom Server,
+ * bis er durch `requestStop()` gestoppt wird.
+ */
+
+ import java.io.*;
 import java.net.*;
 
 class EchoClient {
   public static void main(String[] args) {
     if (args.length != 1) {
-      System.err.println("Usage: java EchoClient <host>");
+      System.err.println("Verwendung: java EchoClient <host>");
+      System.err.println("  z.B.: java EchoClient localhost");
       System.exit(1);
     }
     try {
