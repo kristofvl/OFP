@@ -11,8 +11,9 @@
  * - Fehlerbehandlung bei unvollständigen oder fehlerhaften Eingaben
  * - Ausgabe der Studentendaten im CSV-Format über PrintWriter
  *
- * In main wird ein Student erzeugt, die Daten werden auf die Konsole und in eine
- * Datei (`out.txt`) geschrieben.
+ * In main wird ein Student erzeugt, die Daten werden auf die Konsole und in
+ * eine Datei ('out.txt') geschrieben. Diese Datei wird ausgelesen und ein
+ * Objekt mit CSV-Format via System.in eingelesen.
  */
 
 import java.io.*;
@@ -65,5 +66,19 @@ class Student {
 			if (pw != null) pw.close();   // Keine IOException
 		}
 		BufferedReader reader = null;
+		try {
+        reader = new BufferedReader( new FileReader("out.txt") );
+        Student s1 = new Student(reader);
+        System.out.println("Name,Vorname,matrNr,Note:");
+        Student s3 = new Student(new BufferedReader(
+                                    new InputStreamReader(System.in) ) );
+        System.out.println(s1);
+        System.out.println(s3);
+      }
+      catch (FileNotFoundException e) {/*...*/}
+      catch (IOException e) {/*...*/}
+      finally {
+        try { reader.close(); } catch (Exception e) {/*...*/}
+      }
 	}
 }
