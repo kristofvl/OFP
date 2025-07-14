@@ -20,7 +20,7 @@ class Klausur02 {
     int size = 7;
     System.out.print("Dreieck von Größe ");
     System.out.println( size + ":" );
-    // 3. Rufe die Methode dreieckmit dem Parameter size auf:
+    // 3. Rufe die Methode dreieck mit dem Parameter size auf:
 
   }
 }
