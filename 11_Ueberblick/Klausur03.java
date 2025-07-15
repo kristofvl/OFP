@@ -9,8 +9,7 @@ class Klausur03 {
       String returnStr;
       if (symbol1 > 0) {
         String str = " " + symbol1 + symbol2;
-        str += symbol1;
-	 }
+      }
 	 short returnShort = (short)symbol2;
 	 wot = (boolean) symbol2;
     }
